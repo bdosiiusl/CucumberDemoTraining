@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		format = {"pretty ","json:target/cucumber.json"},
-		features = {"src/cucumber.features/"},
-		glue= {"StepDefinition"}
+		features = {"src/cucumber.features/"}
+	
 		
 		)
 

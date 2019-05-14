@@ -34,9 +34,9 @@ public class StepDefinition {
 	@When("^I complete registration$")
 	public void shouldBeOnRegitrationPage() throws Throwable {
 		
-		driver.findElement(By.name("firstname")).sendKeys("bzay");
+		driver.findElement(By.name("firstname")).sendKeys("yybzay");
 		
-		driver.findElement(By.name("lastname")).sendKeys("bzee");
+		driver.findElement(By.name("lastname")).sendKeys("yybzee");
 		
 		driver.findElement(By.name("address1")).sendKeys("12 Highstreet");
 		
@@ -49,17 +49,17 @@ public class StepDefinition {
 		
 		driver.findElement(By.name("dayphone1")).sendKeys("001");
 		
-		driver.findElement(By.name("dayphone2")).sendKeys("888");
+		driver.findElement(By.name("dayphone2")).sendKeys("730");
 		
-		driver.findElement(By.name("dayphone3")).sendKeys("4321");
+		driver.findElement(By.name("dayphone3")).sendKeys("7620");
 				
-		driver.findElement(By.name("zip")).sendKeys("94085");
+		driver.findElement(By.name("zip")).sendKeys("94087");
 		
-		driver.findElement(By.name("email")).sendKeys("bzaybee@yahoo.com");
+		driver.findElement(By.name("email")).sendKeys("yyzaybee@yahoo.com");
 		
-		driver.findElement(By.name("retype_email")).sendKeys("bzaybee@yahoo.com");
+		driver.findElement(By.name("retype_email")).sendKeys("yyzaybee@yahoo.com");
 		
-		driver.findElement(By.name("userid")).sendKeys("bzeays2019");
+		driver.findElement(By.name("userid")).sendKeys("yyzeays2019");
 		
 		driver.findElement(By.id("PASSWORD")).sendKeys("H0ddesdon");
 		
