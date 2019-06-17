@@ -1,9 +1,8 @@
 package cucumber.features;
 
-import static org.junit.Assert.assertTrue;
-
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import junit.framework.Assert;
+
 
 public class StepDefinition {
 	
@@ -34,9 +33,9 @@ public class StepDefinition {
 	@When("^I complete registration$")
 	public void shouldBeOnRegitrationPage() throws Throwable {
 		
-		driver.findElement(By.name("firstname")).sendKeys("yybzay");
+		driver.findElement(By.name("firstname")).sendKeys("wwbzay");
 		
-		driver.findElement(By.name("lastname")).sendKeys("yybzee");
+		driver.findElement(By.name("lastname")).sendKeys("wwbzee");
 		
 		driver.findElement(By.name("address1")).sendKeys("12 Highstreet");
 		
@@ -55,11 +54,11 @@ public class StepDefinition {
 				
 		driver.findElement(By.name("zip")).sendKeys("94087");
 		
-		driver.findElement(By.name("email")).sendKeys("yyzaybee@yahoo.com");
+		driver.findElement(By.name("email")).sendKeys("wwbzay@yahoo.com");
 		
-		driver.findElement(By.name("retype_email")).sendKeys("yyzaybee@yahoo.com");
+		driver.findElement(By.name("retype_email")).sendKeys("wwbzay@yahoo.com");
 		
-		driver.findElement(By.name("userid")).sendKeys("yyzeays2019");
+		driver.findElement(By.name("userid")).sendKeys("wwzeays2019");
 		
 		driver.findElement(By.id("PASSWORD")).sendKeys("H0ddesdon");
 		
