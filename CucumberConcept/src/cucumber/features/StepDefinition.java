@@ -33,9 +33,9 @@ public class StepDefinition {
 	@When("^I complete registration$")
 	public void shouldBeOnRegitrationPage() throws Throwable {
 		
-		driver.findElement(By.name("firstname")).sendKeys("wwbzay");
+		driver.findElement(By.name("firstname")).sendKeys("wwtbzay");
 		
-		driver.findElement(By.name("lastname")).sendKeys("wwbzee");
+		driver.findElement(By.name("lastname")).sendKeys("wwtbzee");
 		
 		driver.findElement(By.name("address1")).sendKeys("12 Highstreet");
 		
@@ -54,11 +54,11 @@ public class StepDefinition {
 				
 		driver.findElement(By.name("zip")).sendKeys("94087");
 		
-		driver.findElement(By.name("email")).sendKeys("wwbzay@yahoo.com");
+		driver.findElement(By.name("email")).sendKeys("wwtbzay@yahoo.com");
 		
-		driver.findElement(By.name("retype_email")).sendKeys("wwbzay@yahoo.com");
+		driver.findElement(By.name("retype_email")).sendKeys("wwtbzay@yahoo.com");
 		
-		driver.findElement(By.name("userid")).sendKeys("wwzeays2019");
+		driver.findElement(By.name("userid")).sendKeys("wwtzeays2019");
 		
 		driver.findElement(By.id("PASSWORD")).sendKeys("H0ddesdon");
 		
@@ -80,7 +80,7 @@ public class StepDefinition {
 		
 		driver.findElement(By.id("acceptq1")).click();
 		
-		driver.findElement(By.id("continue")).click();
+		driver.findElement(By.id("continue")).submit();
 	}
 
 	@Then("^I check that registration is successful$")
